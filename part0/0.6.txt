@@ -1,0 +1,2 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
+server-->browser: 201 Created [{"message":"note created"}]
