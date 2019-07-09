@@ -1,0 +1,11 @@
+import React from "react"
+
+const Total = ({ parts }) => {
+  const total = parts
+    .map(item => item.exercises)
+    .reduce((acc, val) => acc + val)
+
+  return <p>{total}</p>
+}
+
+export default Total
